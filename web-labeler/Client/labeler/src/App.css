@@ -1,0 +1,31 @@
+.content-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.table-container {
+  flex: 0 0 30%;
+  padding: 10px;
+  max-height: 600px;
+  overflow: auto;
+  border: 1px solid #ccc;
+}
+
+.chart-container {
+  flex: 0 0 70%;
+  padding: 10px;
+  max-height: 600px;
+  overflow: auto;  /* This ensures a scrollbar appears beneath the chart if needed */
+}
+
+/* When the screen is small, stack the panels vertically */
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column;
+  }
+  .table-container,
+  .chart-container {
+    flex: 1 0 100%;
+  }
+}
