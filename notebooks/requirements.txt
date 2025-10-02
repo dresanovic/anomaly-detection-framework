@@ -1,0 +1,14 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+tensorflow
+keras
+joblib
+scikeras
+seaborn
+statsmodels
+xgboost
+
+pip install numpy pandas matplotlib scikit-learn tensorflow keras joblib scikeras seaborn statsmodels xgboos
+pip install numpy pandas matplotlib seaborn scikit-learn
